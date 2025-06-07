@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7fafc;
+  color: #222;
+}
+
+h1 {
+  color: #2d7ff9;
+  margin-bottom: 0.2em;
+}
+
+h4 {
+  color: #444;
+  margin-top: 0.5em;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1em;
+  resize: vertical;
+  margin-bottom: 1em;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+input[type="file"] {
+  margin-bottom: 1em;
+}
+
+.status {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: #555;
+}
+
+.shards {
+  font-size: 2.5em;
+  color: #27ae60;
+  margin-top: 0.5em;
+}
+
+#status {
+  font-weight: bold;
+}
+
+#shards {
+  font-weight: bold;
+}
+    .accounts-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .account-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      padding: 18px 24px;
+      min-width: 220px;
+      max-width: 260px;
+      margin: 0 10px 20px 10px;
+      text-align: left;
+    }
+    .account-card h5 {
+      margin: 0 0 8px 0;
+      color: #2d7ff9;
+    }
+    .account-card .acc-status {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .account-card .acc-shards {
+      color: #27ae60;
+      font-size: 1.2em;
+    }
